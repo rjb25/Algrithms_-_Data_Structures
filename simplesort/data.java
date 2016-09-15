@@ -2,7 +2,7 @@
 //http://stackoverflow.com/questions/9785336/how-to-check-if-array-indexes-are-empty-and-if-so-check-the-next
 /*
  * JASON BASANESE
- * https://github.com/rjb25/Algrithms_-_Data_Structures/simplesort/simplesort.java
+ * https://github.com/rjb25/Algrithms_-_Data_Structures/blob/master/simplesort/data.java
  * COSC 311
  * HW 09/07
  * FALL 2016
