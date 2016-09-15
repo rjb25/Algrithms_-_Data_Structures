@@ -2,7 +2,7 @@
 //http://stackoverflow.com/questions/6443176/how-can-i-generate-a-random-number-within-a-range-but-exclude-some
 /*
  * JASON BASANESE
- * https://github.com/rjb25/Algrithms_-_Data_Structures/edit/master/random.java
+ * https://github.com/rjb25/Algrithms_-_Data_Structures/edit/master/RandomData.java
  * COSC 311
  * HW 09/14
  * FALL 2016
