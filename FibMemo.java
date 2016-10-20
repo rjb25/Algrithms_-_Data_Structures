@@ -1,6 +1,6 @@
 /*
  * JASON BASANESE
- * https://github.com/rjb25/Algrithms_-_Data_Structures/blob/master/FibMemo.java
+ * https://github.com/rjb25/Algrithms_-_Data_Structures/blob/master/StackMax
  * COSC 311
  * HW 10/17
  * FALL 2016
@@ -23,17 +23,21 @@ public class FibMemo {
 
 	public static int fib(int n) {
 		if (fibPrev[n] != -1) {
+			System.out.println("skipping");
 			return fibPrev[n];
 		}
 		if (n == 0) {
+			System.out.println("new " + n);
 			fibPrev[n] = 0;
 			return fibPrev[n];
 		}
 		if (n <= 2) {
+			System.out.println("new " + n);
 			fibPrev[n] = 1;
 			return fibPrev[n];
 		}
 		fibPrev[n] = fib(n - 1) + fib(n - 2);
+		System.out.println("new " + n);
 		return fibPrev[n];
 	}
 }
